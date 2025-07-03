@@ -1,0 +1,27 @@
+name: 🧰 Internal
+description: This is only for internal purposes
+title: "[Internal] : "
+labels: ['type: Development', 'status: Waiting Triage']
+body:
+  - type: dropdown
+    id: platform
+    attributes:
+      label: For which platform you are reporting bug?
+      options:
+        - FireHub Core
+        - FireHub Skeleton
+    validations:
+      required: true
+  - type: input
+    id: platform-version
+    attributes:
+      label: Platform version
+      placeholder: "example: Professional 1.0.0"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Description
+      description: A description of internal issue.
+    validations:
+      required: true
