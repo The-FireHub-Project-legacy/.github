@@ -6,3 +6,5 @@
 
 # CODEOWNERS will be handled by the owner
 /.github/CODEOWNERS @dieselxxx
+
+/tests @dieselxxx
