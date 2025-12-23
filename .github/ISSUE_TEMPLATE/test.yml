@@ -26,7 +26,7 @@ body:
   - type: input
     id: platform-version
     attributes:
-      label: Platform version
+      label: "Platform version:"
       placeholder: "example: Professional v1.0.0"
     validations:
       required: true
