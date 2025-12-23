@@ -1,4 +1,6 @@
-# Community
+blank_issues_enabled: false
+contact_links:
+  # Community
   - name: 📢 Announcements & News
     url: https://github.com/orgs/The-FireHub-Project/discussions/categories/announcements
     about: Official updates, release notes, or organizational notifications. Only maintainers and admins can post.
