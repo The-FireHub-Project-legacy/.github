@@ -1,1 +1,7 @@
-patreon: firehub
+# FireHub Project Funding Configuration
+# For GitHub display on the repository page under "Sponsor"
+
+github: 
+  - The-FireHub-Project
+patreon:
+  - firehub
