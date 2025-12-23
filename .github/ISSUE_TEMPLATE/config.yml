@@ -1,44 +1,26 @@
 blank_issues_enabled: false
 contact_links:
+
   # Community
-  - name: 📢 Announcements & News
+  - name: 📢 Announcements
     url: https://github.com/orgs/The-FireHub-Project/discussions/categories/announcements
     about: Official updates, release notes, or organizational notifications. Only maintainers and admins can post.
-
   - name: 📰 News
     url: https://github.com/orgs/The-FireHub-Project/discussions/categories/news
     about: Community and project-related news. Open for comments from all members.
-
-  - name: 🎈 Ideas
-    url: https://github.com/orgs/The-FireHub-Project/discussions/categories/ideas
-    about: Propose new features, enhancements, or conceptual improvements.
-
-  - name: ❓ Q&A
+  - name: Q&A - Questions and Answers
     url: https://github.com/orgs/The-FireHub-Project/discussions/categories/q-a
-    about: Seek guidance, clarifications, or solutions from the community.
-
+    about: Seek guidance, clarifications, or solutions from the FireHub community.
   - name: ⁉️ Suggestions
     url: https://github.com/orgs/The-FireHub-Project/discussions/categories/suggestions
     about: Detailed proposals for code optimization, performance, refactoring, or security.
-
-  - name: 📉 Polls
-    url: https://github.com/orgs/The-FireHub-Project/discussions/categories/polls
-    about: Gather opinions or votes from contributors and users.
 
   # Development & Technical
   - name: ♨️ RFC
     url: https://github.com/orgs/The-FireHub-Project/discussions/categories/rfc
     about: Request for Comments on technical changes, architecture, or experimental implementations.
 
-  - name: 🔧 Dev Notes
-    url: https://github.com/orgs/The-FireHub-Project/discussions/categories/dev-notes
-    about: Internal notes, implementation insights, or developer guidance.
-
   # Operations & Incidents
   - name: ❗ Incident
     url: https://github.com/orgs/The-FireHub-Project/discussions/categories/incident
     about: Report operational incidents, bugs, or unexpected behavior.
-
-  - name: 🛠️ Maintenance
-    url: https://github.com/orgs/The-FireHub-Project/discussions/categories/maintenance
-    about: Communicate scheduled maintenance, downtime, or operational updates.
