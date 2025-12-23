@@ -2,20 +2,31 @@ name: test Bug Report
 description: Report a bug in Core, Adapters, or Modules
 title: "[Bug] : "
 type: Bug
-labels: ['type: Bug', 'status: Waiting Triage']
+labels: ["type: Bug", "status: Waiting Triage"]
 
 body:
-  - type: markdown
+
+  - type: dropdown
+    id: platform
     attributes:
-      value: |
-        Thank you for reporting a bug in FireHub!
-        Please fill out the sections below to help us reproduce and fix the issue.
+      label: Platform
+      description: Which part of FireHub is affected?
+      options:
+        - Core Standard
+        - Core Professional
+        - Core Enterprise
+        - HTTP Adapter
+        - Console Adapter
+        - Capability Module
+        - Adapter Module
+        - ...other platform
+    validations:
+      required: true
 
   - type: input
-    id: title
+    id: platform-version
     attributes:
-      label: "Bug Title"
-      description: "Briefly summarize the bug"
-      placeholder: "E.g., CoreKernel fails when loading PHAR"
+      label: Platform version
+      placeholder: "example: Professional v1.0.0"
     validations:
       required: true
