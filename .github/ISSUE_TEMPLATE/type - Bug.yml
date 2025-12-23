@@ -1,7 +1,9 @@
 name: 🐞 Bug Report
-description: Create a bug report to help us improve
+description: Report a bug in Core, Adapters, or Modules
 title: "[Bug] : "
+type: Bug
 labels: ['type: Bug', 'status: Waiting Triage']
+projects: ["The-FireHub-Project-legacy/2", "The-FireHub-Project-legacy/3"]
 body:
   - type: dropdown
     id: platform
